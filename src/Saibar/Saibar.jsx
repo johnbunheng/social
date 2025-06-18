@@ -12,7 +12,7 @@ import { TbMessageReportFilled } from "react-icons/tb";
 import Heng from "../img/heng5.jpg"
 import Seth from "../img/seth.jpg"
 import Hong from "../img/hong.jpg"
-import Hour from "../img/hour.jpg"
+import Hour from "../img/Hour.jpg"
 
 const Saibar = () => {
     const [list,Setlist] = useState([
