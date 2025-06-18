@@ -1,4 +1,4 @@
-import { FaUserFriends } from "react-icons/fa";
+import { FaUserPlus } from "react-icons/fa";
 import { IoChatbubbleEllipsesSharp } from "react-icons/io5";
 import { IoNotifications } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
@@ -31,7 +31,7 @@ const Navbar = () => {
                 {/* notification */}
                 <div className="flex sm:mx-5 gap-3 sm:gap-4 items-center ">
                     <div className="relative">
-                        <FaUserFriends className="sm:text-2xl"/><span className=" absolute -top-3 w-4 h-4 text-center text-[0.650rem] left-3 bg-pink-800
+                        <FaUserPlus className="sm:text-2xl"/><span className=" absolute -top-3 w-4 h-4 text-center text-[0.650rem] left-3 bg-pink-800
                         text-white rounded-full">1</span>
                     </div>
                     <div className="relative">
