@@ -1,8 +1,19 @@
+import Navbar from "../../Component/Navbar/Navbar";
+import Feed from "../../Feed/Feed";
+import Rightbar from "../../Rightbar/Rightbar";
+import Saibar from "../../Saibar/Saibar";
+
 const Home = () => {
     return ( 
-        <div>
-            
+        <>
+        <Navbar/>
+         <div className=" flex gap-96">
+            <Saibar/>
+            <Feed/>
+            <Rightbar/>
         </div>
+        </>
+       
      );
 }
  
