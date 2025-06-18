@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { MdFeed } from "react-icons/md";
 import { IoChatbubbleEllipses } from "react-icons/io5";
-import { CgChart } from "react-icons/cg";
 import { MdOndemandVideo } from "react-icons/md";
 import { HiMiniUserGroup } from "react-icons/hi2";
 import { IoGameController } from "react-icons/io5";
