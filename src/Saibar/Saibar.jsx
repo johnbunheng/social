@@ -87,7 +87,7 @@ const Saibar = () => {
     return ( 
         <div className="scr w-[20%] h-[90vh] bg-gray-300 my-2 mx-2 py-5 rounded-md overflow-y-scroll
          ">
-            <div>
+            
                 <ul className="py-2 px-6 space-y-6">
                     {
                         list.map((item)=>(
@@ -101,7 +101,7 @@ const Saibar = () => {
                     }
                 </ul>
                 <button className="btn mx-5 my-2">Show More</button>
-                <hr className=" border border-pink-800 w-[90%] my-5 mx-5"/>
+                <hr className=" border-1 border-pink-800  my-5 mx-5"/>
                 {/* profile */}
                     {
                         users.map((user)=>(
@@ -115,7 +115,7 @@ const Saibar = () => {
                     }
                
             </div>
-        </div>
+        
      );
 }
  

@@ -11,7 +11,7 @@ const Navbar = () => {
            <div className="flex justify-between bg-gray-300">
                 {/* Logo and name */}
                 <div className="my-4 mx-2 sm:mx-14">
-                    <h1 className="text-lg sm:text-2xl font-poppins font-semibold bg-gradient-to-r from-pink-950 to-pink-500 text-transparent inline-block bg-clip-text ">Duckgo</h1>
+                    <h1 className="text-lg sm:text-2xl md:text-4xl font-poppins font-semibold bg-gradient-to-r from-pink-950 to-pink-500 text-transparent inline-block bg-clip-text ">Duckgo</h1>
                 </div>
                 {/* Search */}
                 <div className="relative mx-10">
