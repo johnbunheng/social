@@ -59,10 +59,10 @@ const Post = () => {
         setLike( like + 1)
     }
     return ( 
-        <div className="">
+        <div className="mx-auto">
             {
                 userpost.map((item)=>(
-                    <div key={item.id} className="bg-gray-300 w-96 sm:w-[730px] -mx-[397px] sm:-mx-[360px] py-2 my-5 rounded-md shadow-lg">
+                    <div key={item.id} className="bg-gray-300 w-96 sm:w-[730px] sm:-mx-[360px] py-2 my-5 rounded-md shadow-lg">
                         {/* Header + pf */}
                         <div className="flex justify-between px-5 py-3">
                             <div className="flex text-center items-center gap-2">

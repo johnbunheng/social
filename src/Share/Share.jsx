@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmojiEmotions } from "react-icons/md";
 const Share = () => {
     return ( 
-        <div className="bg-gray-300 w-96 sm:w-[730px] -mx-[397px] sm:-mx-[360px] my-5 rounded-md shadow-lg">
+        <div className="bg-gray-300 w-96 sm:w-[730px] sm:-mx-[360px] my-5 rounded-md shadow-lg">
             {/* top Share */}
             <div className="flex py-5 px-5 items-center gap-2">
                 <img src={Pf} alt="" 

@@ -3,7 +3,7 @@ import Share from "../Share/Share";
 
 const Feed = () => {
     return ( 
-        <div>
+        <div className=" m-auto">
             <Share/>
             <Post/>
             <Post/>
