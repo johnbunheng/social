@@ -7,7 +7,7 @@ import Heng from "../../img/heng5.jpg"
 const Navbar = () => {
 
     return ( 
-        <nav>
+        <nav className=" sticky top-0 z-[9999]">
            <div className="flex justify-between bg-gray-300">
                 {/* Logo and name */}
                 <div className="my-4 mx-2 sm:mx-14">

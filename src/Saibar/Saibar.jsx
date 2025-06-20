@@ -86,7 +86,7 @@ const Saibar = () => {
     ]);
     return ( 
         <div className="scr w-[20%] h-[90vh] bg-gray-300 my-2 mx-2 py-5 rounded-md overflow-y-scroll
-         ">
+          sticky top-20 ">
             
                 <ul className="py-2 px-6 space-y-6">
                     {

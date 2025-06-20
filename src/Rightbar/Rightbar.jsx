@@ -31,7 +31,7 @@ const Rightbar = () => {
             }
         ]);
     return ( 
-        <div className="bg-gray-300 h-[100vh] my-2 rounded-md w-[27%]">
+        <div className="bg-gray-300 h-[100vh] my-2 rounded-md w-[27%] hidden sm:block ">
             {/* Text */}
             <div className="p-4 flex text-center items-center gap-2">
                 <FaGift className=" text-4xl text-pink-800"/><strong className=" font-poppins">John Bunheng</strong>
