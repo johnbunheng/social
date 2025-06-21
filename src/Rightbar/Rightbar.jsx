@@ -1,11 +1,13 @@
 import { FaGift } from "react-icons/fa6";
 import drink from "../img/drink.jpg"
 import { useState } from "react";
+import Saibar from "../Saibar/Saibar"
 
 import Heng from "../img/heng5.jpg"
 import Seth from "../img/seth.jpg"
 import Hong from "../img/hong.jpg"
 import Hour from "../img/Hour.jpg"
+
 
 const Rightbar = () => {
        const [online,SetOnline] = useState([
@@ -31,7 +33,7 @@ const Rightbar = () => {
             }
         ]);
     return ( 
-        <div className="bg-gray-300 h-[100vh] my-2 rounded-md w-[27%] hidden sm:block ">
+        <div className="bg-gray-300 h-[100vh] my-5 rounded-md w-[36%] mx-2 hidden lg:block">
             {/* Text */}
             <div className="p-4 flex text-center items-center gap-2">
                 <FaGift className=" text-4xl text-pink-800"/><strong className=" font-poppins">John Bunheng</strong>

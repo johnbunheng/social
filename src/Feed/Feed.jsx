@@ -6,9 +6,6 @@ const Feed = () => {
         <div className=" m-auto">
             <Share/>
             <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
         </div>
      );
 }

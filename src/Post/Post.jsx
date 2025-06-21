@@ -25,7 +25,8 @@ const Post = () => {
             title:"Coder hashahaha",
             imgpf:Hour,
             imgps:pos1,
-            min:"10"
+            min:"10",
+            like:15
         },
         {
             id:2,
@@ -33,7 +34,8 @@ const Post = () => {
             title:"Good Morning Guys",
             imgpf:Seth,
             imgps:pos2,
-            min:"7"
+            min:"7",
+            like:30
         },
         {
             id:3,
@@ -41,7 +43,8 @@ const Post = () => {
             title:"Hi guys",
             imgpf:Hong,
             imgps:pos3,
-            min:"8"
+            min:"8",
+            like:432,
         },
         {
             id:4,
@@ -49,17 +52,20 @@ const Post = () => {
             title:"Hello Everyone",
             imgpf:Heng,
             imgps:pos4,
-            min:"15"
+            min:"15",
+            like:124
         },
     ])
 
     // handle in ++
     const [like,setLike] = useState(0)
+    const [liked,setLiked] = useState(false)
     const handbleIn = () =>{
-        setLike( like + 1)
+        setLike(liked ? like-1 : like+1)
+        setLiked(!liked)
     }
     return ( 
-        <div className="mx-auto">
+        <div >
             {
                 userpost.map((item)=>(
                     <div key={item.id} className="bg-gray-300 w-96 sm:w-[730px] sm:-mx-[360px] py-2 my-5 rounded-md shadow-lg">
@@ -87,7 +93,7 @@ const Post = () => {
                             <ul className="flex text-center items-center gap-1">
                                 <li onClick={handbleIn}><AiFillLike className="text-xl text-sky-900 cursor-pointer"/></li>
                                 <li onClick={handbleIn}><IoHeartCircleSharp className="text-xl text-red-700 cursor-pointer"/></li>
-                                <li><p>{like} Like and love</p></li>
+                                <li><p>{item.like+like} Like and love</p></li>
                             </ul>
                         
                             <div>
